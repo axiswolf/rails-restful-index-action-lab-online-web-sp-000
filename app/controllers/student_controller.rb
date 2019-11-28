@@ -1,6 +1,7 @@
 class StudentController < ApplicationController
 
-  def index
+  get '/students' do
+    erb :'/students/index'
   end
 
 end
