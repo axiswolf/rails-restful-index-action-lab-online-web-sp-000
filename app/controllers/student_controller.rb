@@ -2,7 +2,7 @@ class StudentController < ApplicationController
 
   get '/students' do
     @students = Students.all
-    erb :index
+    erb :'/students/index'
   end
 
 end
